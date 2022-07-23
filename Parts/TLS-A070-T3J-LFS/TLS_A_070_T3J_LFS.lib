@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TLS_A_070_T3J_LFS
+#/13258222/284388/2.47/2/4/Switch (2-Pin Push)
+DEF TLS_A_070_T3J_LFS S 0 30 Y Y 1 F N
+F0 "S" 450 150 50 H V L CNN
+F1 "TLS_A_070_T3J_LFS" 300 -100 50 H V C CNN
+F2 "TLSA100JLFS" 300 -200 50 H I C CNN
+F3 "https://www.digikey.co.uk/product-detail/en/c-k/TLS-A-100J-LFS/108-TLSA100JLFSTR-ND/12143881" 300 -300 50 H I C CNN
+F4 "Tactile Switches Top actuated tact, 0.9 mm travel, 7 N, 30% Tactile, J Leads, SMT, 8.6 x 8.4 x 3.95 mm, Soft Actuator" 300 -400 50 H I C CNN "Description"
+F5 "4.15" 300 -500 50 H I C CNN "Height"
+F6 "" 300 -600 50 H I C CNN "Mouser Part Number"
+F7 "" 300 -700 50 H I C CNN "Mouser Price/Stock"
+F8 "C & K COMPONENTS" 300 -800 50 H I C CNN "Manufacturer_Name"
+F9 "TLS A 070 T3J LFS" 300 -900 50 H I C CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 2 0 1 6 200 50 400 50 N
+P 2 0 1 6 300 50 300 100 N
+C 220 0 20 0 1 10 N
+C 380 0 20 0 1 10 N
+ENDDRAW
+ENDDEF
+#
+#End Library
